@@ -114,6 +114,7 @@ export default function Header() {
         </ul>
 
         <div className="gallery-sidebar t-center p-l-60 p-r-60 p-b-40">
+        {/* <div className="gallery-sidebar t-center p-l-60 p-r-60 p-b-40"> */}
           <h4 className="txt20 m-b-33">Gallery</h4>
           <div className="wrap-gallery-sidebar flex-w">
             {[1, 2, 3, 5, 6, 7, 9, 10, 11].map(num => (
